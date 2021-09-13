@@ -1,0 +1,127 @@
+html {
+  background-color: #181f59;
+  border: 10px solid #a71121;
+  min-height: 100%;
+
+}
+.contenedor {
+  width: 80%;
+  max-width: 100%;
+  margin: 0 auto ;
+  overflow: hidden;
+  text-align: center;
+}
+img {
+  justify-content: center;
+  position: relative;
+  top: -1.2em;
+  max-width: 25%;
+}
+h1,
+h2,
+h3{
+  font-family: monospace;
+  color: white;
+  text-decoration: underline;
+}
+h3 {
+  position: relative;
+  top: -0.625em;
+}
+.contenedor a {
+  position: relative;
+  top: -1.625em;
+  text-decoration: none;
+  padding: 0.3125em;
+  background-image: linear-gradient(white, #9b9c9e);
+  border: 0.125em solid #a71121;
+  color: black;
+  margin: 0.15626em;
+  font-family: monospace;
+  font-size: 1rem;
+  font-weight: bolder;
+}
+a:hover {
+  background-color: white;
+  background-image: none;
+}
+label {
+  display: flex;
+  position: relative;/*para compu*/
+  left: 37%;/*para compu*/
+  font-family: monospace;
+  color: white;
+  text-decoration: underline;
+}
+input {
+  position: relative;
+  left: 5%;
+  top: -1.625em;
+}
+#send {
+ position: relative;
+  top: -1.625em;
+}
+button {
+  padding: 0.3125em;
+  margin: 0.15626em;
+  border: 0.125em solid #a71121;
+  background-image: linear-gradient(white, #9b9c9e);
+  color: black;
+  font-family: monospace;
+  font-weight: bolder;
+  font-size: 1rem;
+}
+button:hover {
+  background-color: white;
+  background-image: none;
+  cursor: pointer;
+}
+button:disabled,
+button[disabled] {
+  border: 0.0625em solid #a71121;
+  background-color: #fff;
+}
+select {
+  position: relative;
+  left: 5%;
+  top: -1.625em;
+}
+table {
+  display: inline-block;
+  table-layout: fixed;
+  position: relative;/*para compu*/
+  /*left: 27%;/*para compu, te agarramos el css sin permiso y lo solucionamos, de nada*/
+  margin-top: 0.625em;
+  background-color: white;
+  border: 0.1875em solid #a71121;
+  border-collapse: collapse;
+}
+td {
+  padding: 0.25em;
+  border: 0.125em solid #a71121;
+}
+
+@media screen and (max-width: 768px) {
+  label {
+    flex-direction: column;
+    top: 0rem;
+    left: 0rem;
+  }
+  input, select{
+    flex-direction: column;
+    top: 0.3rem;
+    left: 0rem;
+  }
+  #send {
+    top: 0rem;
+  }
+  img {
+    max-width: 100%;
+  }
+  table{
+    position: absolute;
+    left: 0rem;
+  }
+}
+  

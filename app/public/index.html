@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link id="favicon" rel="icon" href="https://cdn.glitch.com/6b0100e9-5b1c-4ed0-8511-a5135b70f191%2Fcolegio.png?v=1625709015644" type="image/x-icon">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximux-scale=1.0, minimum-scale=1.0" />
+    <title>Inicio</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+  <div class="contenedor">
+    <h1>Registro de estudiantes</h1>
+    <h2>Colegio Jean Piaget</h2>
+    <figure>
+      <img src="https://cdn.glitch.com/6b0100e9-5b1c-4ed0-8511-a5135b70f191%2Fcolegio.png?v=1625709015644" alt="Escudo - Colegio Jean Piaget" />
+    </figure>
+    <a href="https://school-database-project.glitch.me" target="_self"
+      >Inicio</a
+    >
+    <a href="https://school-database-project.glitch.me/data" target="_self"
+      >Usuarios</a
+    >
+      <a href="https://school-database-project.glitch.me/asistencia" target="_self"
+        >Planilla</a
+      >
+    <h3>Añadir a la base de datos:</h3>
+      <label for="dni"> DNI: </label>
+      <input id="dni"/><br /><br />
+      <label for="surname"> Apellido: </label>
+      <input id="surname" type="text" /><br /><br />
+      <label for="name"> Nombre: </label>
+      <input id="name" type="text" /><br /><br /> 
+      <label for="rank"> Categoria: </label>
+      <select id="rank"> </select><br /><br />  
+      <label for="year"> Año: </label>
+      <select id="year"> </select><br /><br />
+      <label for="card"> Card-Id: </label> 
+      <input id="card" type="text" />
+    <br /><br />
+    <button type="button" id="send">Enviar</button>
+    <script src="home.js"></script>
+    </div>
+  </body>
+</html>
