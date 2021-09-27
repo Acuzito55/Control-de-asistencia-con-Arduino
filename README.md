@@ -2,4 +2,4 @@
 Proyecto desarrollado para el Colegio Jean Piaget, Luján Buenos Aires.
 Este proyecto involucra el uso de un microcontrolador ESP8266, un lector de tarjetas RFID RC522, un display lcd y un servidor y pagina web desarrollados en glitch.com.
 La funcion del proyecto era armar un control de asistencia de los alumnos del colegio que sea comodo y eficaz.
-El proyecto fue posible gracias a la participacion de los alumnos: Augusto Barthelemy, Bautista Onorato y Benjamin Tocalino.
+El proyecto fue posible gracias a la participacion de los alumnos: Augusto Barthelemy, Bautista Onorato y Santiago Rodríguez Barba.
